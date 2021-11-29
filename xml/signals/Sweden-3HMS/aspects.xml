@@ -18,14 +18,14 @@
   </authorgroup>
   <revhistory xmlns="http://docbook.org/ns/docbook">
     <revision>
-      <revnumber>1</revnumber>
-      <date>2020-12-31</date>
+      <revnumber>0.0.1</revnumber>
+      <date>2020-08-22</date>
       <authorinitials>JB</authorinitials>
       <revremark>Initial version</revremark>
     </revision>
   </revhistory>
   <aspects>
-	<aspect>
+		<aspect>
       <name>Stopp</name>
       <rule>Stopp</rule>
       <indication>Stop</indication>
@@ -36,33 +36,33 @@
     </aspect>
 
     <aspect>
-	  <name>Stopp - vanta - begar tillstand</name>
-	  <rule>Stopp - vanta - begar tillstand</rule>
-	  <indication>Stop</indication>
-	  <speed>KorForsiktigt</speed>
-	  <speed2></speed2>
-	  <route>Either</route>
-	  <dccAspect>1</dccAspect>
-     </aspect>
-
-    <aspect>
-	  <name>Stopp - manuell vaxling - vanta - begar tillstand</name>
-	  <rule>Stopp - manuell vaxling - vanta - begar tillstand</rule>
-	  <indication>Stop</indication>
-	  <speed>KorKryp</speed>
-	  <speed2>KorKryp</speed2>
-	  <route>Either</route>
-	  <dccAspect>1</dccAspect>
+			<name>Stopp - vanta - begar tillstand</name>
+			<rule>Stopp - vanta - begar tillstand</rule>
+			<indication>Stop</indication>
+			<speed>KorForsiktigt</speed>
+			<speed2></speed2>
+			<route>Either</route>
+			<dccAspect>2</dccAspect>
     </aspect>
 
-	<aspect>
-	  <name>Stopp - hinder - vanta - begar tillstand</name>
-	  <rule>Stopp - hinder - vanta - begar tillstand</rule>
-	  <indication>Stop</indication>
-	  <speed>KorKryp</speed>
-	  <speed2>KorKryp</speed2>
-	  <route>Either</route>
-	  <dccAspect>1</dccAspect>
+    <aspect>
+			<name>Stopp - manuell vaxling - vanta - begar tillstand</name>
+			<rule>Stopp - manuell vaxling - vanta - begar tillstand</rule>
+			<indication>Stop</indication>
+			<speed>KorKryp</speed>
+			<speed2>KorKryp</speed2>
+			<route>Either</route>
+			<dccAspect>3</dccAspect>
+    </aspect>
+
+		<aspect>
+			<name>Stopp - hinder - vanta - begar tillstand</name>
+			<rule>Stopp - hinder - vanta - begar tillstand</rule>
+			<indication>Stop</indication>
+			<speed>KorKryp</speed>
+			<speed2>KorKryp</speed2>
+			<route>Either</route>
+			<dccAspect>4</dccAspect>
     </aspect>
 	  
     <aspect>
@@ -72,18 +72,18 @@
       <speed>Kor80</speed>
       <speed2>Kor40</speed2>
       <route>Either</route>
-      <dccAspect>2</dccAspect>
+      <dccAspect>5</dccAspect>
     </aspect>
 
-	<aspect>
-	  <name>Kor 40 - vanta</name>
-	  <rule>Kor 40 - vanta</rule>
-	  <indication>Proceed 40 KMPH and use caution prepared for any next signal indication</indication>
-	  <speed>Kor40</speed>
-	  <speed2>Kor40</speed2>
-	  <route>Either</route>
-	  <dccAspect>3</dccAspect>
-	</aspect>
+		<aspect>
+			<name>Kor 40 - vanta</name>
+			<rule>Kor 40 - vanta</rule>
+			<indication>Proceed 40 KMPH and use caution prepared for any next signal indication</indication>
+			<speed>Kor40</speed>
+			<speed2>Kor40</speed2>
+			<route>Either</route>
+			<dccAspect>6</dccAspect>
+		</aspect>
 
 	  <aspect>
 		  <name>Kor 40 - vanta - kor 40</name>
@@ -92,7 +92,7 @@
 		  <speed>Kor40</speed>
 		  <speed2>Kor40</speed2>
 		  <route>Either</route>
-		  <dccAspect>3</dccAspect>
+		  <dccAspect>7</dccAspect>
 	  </aspect>
 
 	  <aspect>
@@ -102,7 +102,7 @@
 		  <speed>Kor40</speed>
 		  <speed2>Stop</speed2>
 		  <route>Either</route>
-		  <dccAspect>3</dccAspect>
+		  <dccAspect>8</dccAspect>
 	  </aspect>
 
 	  <aspect>
@@ -112,7 +112,7 @@
       <speed>Kor80</speed>
       <speed2>Kor80</speed2>
       <route>Either</route>
-      <dccAspect>4</dccAspect>
+      <dccAspect>9</dccAspect>
     </aspect>
 	  
     <aspect>
@@ -122,8 +122,8 @@
       <speed>Kor80</speed>
       <speed2>Kor40</speed2>
       <route>Either</route>
-      <dccAspect>5</dccAspect>
-	</aspect>
+      <dccAspect>10</dccAspect>
+		</aspect>
 
 	  <aspect>
 		  <name>Kor 80 - vanta - stopp</name>
@@ -132,17 +132,17 @@
 		  <speed>Kor80</speed>
 		  <speed2>Stop</speed2>
 		  <route>Either</route>
-		  <dccAspect>5</dccAspect>
+		  <dccAspect>11</dccAspect>
 	  </aspect>
 
     <aspect>
-	  <name>Vanta - stopp</name>
-	  <rule>Vanta - stopp</rule>
-	  <indication>Proceed prepared to stop at next signal</indication>
-	  <speed>Kor40</speed>
-	  <speed2>Stop</speed2>
-	  <route>Either</route>
-	  <dccAspect>7</dccAspect>
+			<name>Vanta - stopp</name>
+			<rule>Vanta - stopp</rule>
+			<indication>Proceed prepared to stop at next signal</indication>
+			<speed>Kor40</speed>
+			<speed2>Stop</speed2>
+			<route>Either</route>
+			<dccAspect>12</dccAspect>
     </aspect>
 
 	  <aspect>
@@ -152,7 +152,7 @@
 		  <speed>Kor80</speed>
 		  <speed2>Kor80</speed2>
 		  <route>Either</route>
-		  <dccAspect>8</dccAspect>
+		  <dccAspect>13</dccAspect>
 	  </aspect>
 
 	  <aspect>
@@ -162,7 +162,7 @@
 		  <speed>Kor40</speed>
 		  <speed2>Kor40</speed2>
 		  <route>Either</route>
-		  <dccAspect>9</dccAspect>
+		  <dccAspect>14</dccAspect>
 	  </aspect>
 
 	  <!-- Helper dummy masts -->
@@ -173,7 +173,7 @@
 		  <speed>Stop</speed>
 		  <speed2>Stop</speed2>
 		  <route>Either</route>
-		  <dccAspect>9</dccAspect>
+		  <dccAspect>15</dccAspect>
 	  </aspect>
 
 	  <aspect>
@@ -183,11 +183,11 @@
 		  <speed>Stop</speed>
 		  <speed2>Stop</speed2>
 		  <route>Either</route>
-		  <dccAspect>9</dccAspect>
+		  <dccAspect>16</dccAspect>
 	  </aspect>
 	  <!-- Helper dummy masts -->
-
   </aspects>
+  
   <imagetypes>
     <imagetype type="aspects" />
 	  <!--
@@ -196,13 +196,16 @@
 	-->
   </imagetypes>
   <appearancefiles>
+    <appearancefile href="appearance-SL-2HL.xml" />
+    <appearancefile href="appearance-SL-3HL.xml" />
+    <appearancefile href="appearance-SL-4HL.xml" />
     <appearancefile href="appearance-SL-5HL.xml" />
-	<appearancefile href="appearance-SL-3PreHL.xml" />
-	<appearancefile href="appearance-DWF-7.xml" />
-	<appearancefile href="appearance-DWF-4.xml" />
-	<appearancefile href="appearance-RoadCrossing.xml" />
-	<appearancefile href="appearance-PreRoadCrossing.xml" />
-	<appearancefile href="appearance-RoadSideCrossing.xml" />
-	<appearancefile href="appearance--SL-EndStop.xml" />
+		<appearancefile href="appearance-SL-3PreHL.xml" />
+		<appearancefile href="appearance-DWF-7.xml" />
+		<appearancefile href="appearance-DWF-4.xml" />
+		<appearancefile href="appearance-RoadCrossing.xml" />
+		<appearancefile href="appearance-PreRoadCrossing.xml" />
+		<appearancefile href="appearance-RoadSideCrossing.xml" />
+		<appearancefile href="appearance--SL-EndStop.xml" />
   </appearancefiles>
 </aspecttable>

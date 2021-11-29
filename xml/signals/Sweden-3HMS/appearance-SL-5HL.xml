@@ -34,7 +34,7 @@
 	  <show>dark</show>
 	  <show>dark</show>
 	  <reference>Stopp</reference>
-	  <imagelink type="aspects">../../../resources/icons/smallschematics/aspects/Sweden-3HMS/SL-5/Stop-small.png</imagelink>
+	  <imagelink type="aspects">../../../resources/icons/smallschematics/aspects/Sweden-3HMS/SL-5/Stop-small.gif</imagelink>
 	</appearance>
 	  
     <appearance>
@@ -45,7 +45,7 @@
 	  <show>dark</show>
 	  <show>dark</show>
       <reference>Kor 80 - vanta</reference>
-      <imagelink type="aspects">../../../resources/icons/smallschematics/aspects/Sweden-3HMS/SL-5/Proceed-80-small.png</imagelink>
+      <imagelink type="aspects">../../../resources/icons/smallschematics/aspects/Sweden-3HMS/SL-5/Proceed-80-small.gif</imagelink>
     </appearance>
 	  
 	<appearance>
@@ -56,7 +56,7 @@
 	  <show>dark</show>
 	  <show>dark</show>
 	  <reference>Kor 40 - vanta</reference>
-	  <imagelink type="aspects">../../../resources/icons/smallschematics/aspects/Sweden-3HMS/SL-5/Proceed-40-caution-small.png</imagelink>
+	  <imagelink type="aspects">../../../resources/icons/smallschematics/aspects/Sweden-3HMS/SL-5/Proceed-40-caution-small.gif</imagelink>
 	</appearance>
 	  
 	<appearance>

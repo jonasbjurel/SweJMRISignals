@@ -15,8 +15,8 @@
   </authorgroup>
   <revhistory xmlns="http://docbook.org/ns/docbook">
     <revision>
-      <revnumber>1</revnumber>
-      <date>2020-12-21</date>
+      <revnumber>0.0.1</revnumber>
+      <date>2020-08-23</date>
       <authorinitials>JB</authorinitials>
       <revremark>Initial version</revremark>
     </revision>
@@ -28,67 +28,68 @@
   <appearances>
 	<appearance>
 	  <aspectname>Stopp</aspectname>
-	  <show>flashred</show>
-	  <show>flashred</show>
-	  <show>dark</show>
+    <show>dark</show>
+    <show>dark</show>
+    <show>flashlunar</show>
+    <reference>Stopp</reference>
 	  <imagelink type="aspects">../../../resources/icons/smallschematics/aspects/Sweden-3HMS/RoadCrossing/RailCrossing-allowed-small.gif</imagelink>
 	</appearance>
-	  
-    <appearance>
-      <aspectname>Kor 80 - vanta</aspectname>
-      <show>dark</show>
-	  <show>dark</show>
-	  <show>flashlunar</show>
-      <reference>Kor 80 - vanta</reference>
-      <imagelink type="aspects">../../../resources/icons/smallschematics/aspects/Sweden-3HMS/RoadCrossing/RailCrossing-prohibited-small.gif</imagelink>
-    </appearance>
+
+  <appearance>
+    <aspectname>Kor 80 - vanta</aspectname>
+    <show>flashred</show>
+    <show>flashred</show>
+    <show>dark</show>
+    <reference>Kor 80 - vanta</reference>
+    <imagelink type="aspects">../../../resources/icons/smallschematics/aspects/Sweden-3HMS/RoadCrossing/RailCrossing-prohibited-small.gif</imagelink>
+  </appearance>
 	  
 	<appearance>
 	  <aspectname>Kor 40 - vanta</aspectname>
-	  <show>dark</show>
-	  <show>dark</show>
-	  <show>flashlunar</show>
+    <show>flashred</show>
+    <show>flashred</show>
+    <show>dark</show>
 	  <reference>Kor 40 - vanta</reference>
 	  <imagelink type="aspects">../../../resources/icons/smallschematics/aspects/Sweden-3HMS/RoadCrossing/RailCrossing-prohibited-small.gif</imagelink>
 	</appearance>
 	  
 	<appearance>
 	  <aspectname>Kor 80 - vanta - kor 80</aspectname>
-	  <show>dark</show>
-	  <show>dark</show>
-	  <show>flashlunar</show>
+    <show>flashred</show>
+    <show>flashred</show>
+    <show>dark</show>
 	  <reference>Kor 80 - vanta - kor 80</reference>
 	  <imagelink type="aspects">../../../resources/icons/smallschematics/aspects/Sweden-3HMS/RoadCrossing/RailCrossing-prohibited-small.gif</imagelink>
 	</appearance>
 	  
-    <appearance>
-      <aspectname>Kor 80 - vanta - kor 40</aspectname>
-	  <show>dark</show>
-	  <show>dark</show>
-	  <show>flashlunar</show>
-      <reference>Kor 80 - vanta - kor 40</reference>
+  <appearance>
+    <aspectname>Kor 80 - vanta - kor 40</aspectname>
+    <show>flashred</show>
+    <show>flashred</show>
+    <show>dark</show>
+    <reference>Kor 80 - vanta - kor 40</reference>
 	  <imagelink type="aspects">../../../resources/icons/smallschematics/aspects/Sweden-3HMS/RoadCrossing/RailCrossing-prohibited-small.gif</imagelink>
-    </appearance>
+  </appearance>
 
 	<appearance>
 	  <aspectname>Kor 80 - vanta - stopp</aspectname>
-	  <show>dark</show>
-	  <show>dark</show>
-	  <show>flashlunar</show>
+    <show>flashred</show>
+    <show>flashred</show>
+    <show>dark</show>
 	  <reference>Kor 80 - vanta - stopp</reference>
 	  <imagelink type="aspects">../../../resources/icons/smallschematics/aspects/Sweden-3HMS/RoadCrossing/RailCrossing-prohibited-small.gif</imagelink>
     </appearance>
   </appearances>
 	
   <specificappearances>
-		  <danger>
+	  <danger>
 			  <aspect>Stopp</aspect>
-		  </danger>
-		  <permissive>
-		  </permissive>
-		  <held>
-		  </held>
-	  </specificappearances>
+		</danger>
+		<permissive>
+		</permissive>
+		<held>
+		</held>
+	</specificappearances>
 
   <aspectMappings>
     <!-- Start of Aspect Mapping -->
@@ -100,37 +101,37 @@
     <aspectMapping>
       <advancedAspect>Kor 80 - vanta</advancedAspect>
       <ourAspect>Kor 80 - vanta - kor 80</ourAspect>
-	  <ourAspect>Kor 40 - vanta</ourAspect>
-	  <ourAspect>Stopp</ourAspect>
+	    <ourAspect>Kor 40 - vanta</ourAspect>
+	    <ourAspect>Stopp</ourAspect>
     </aspectMapping>
 	  
-	<aspectMapping>
+	  <aspectMapping>
       <advancedAspect>Kor 40 - vanta</advancedAspect>
       <ourAspect>Kor 80 - vanta - kor 40</ourAspect>
-	  <ourAspect>Kor 40 - vanta</ourAspect>
-	  <ourAspect>Stopp</ourAspect>
+	    <ourAspect>Kor 40 - vanta</ourAspect>
+	    <ourAspect>Stopp</ourAspect>
     </aspectMapping>
 	  
     <aspectMapping>
       <advancedAspect>Kor 80 - vanta - kor 80</advancedAspect>
       <ourAspect>Kor 80 - vanta - kor 80</ourAspect>
-		<ourAspect>Kor 40 - vanta</ourAspect>
-		<ourAspect>Stopp</ourAspect>
+		  <ourAspect>Kor 40 - vanta</ourAspect>
+		  <ourAspect>Stopp</ourAspect>
     </aspectMapping>
 	  
     <aspectMapping>
       <advancedAspect>Kor 80 - vanta - kor 40</advancedAspect>
       <ourAspect>Kor 80 - vanta - kor 80</ourAspect>
-	  <ourAspect>Kor 40 - vanta</ourAspect>
-	  <ourAspect>Stopp</ourAspect>
+	    <ourAspect>Kor 40 - vanta</ourAspect>
+	    <ourAspect>Stopp</ourAspect>
     </aspectMapping>
 	  
     <aspectMapping>
       <advancedAspect>Kor 80 - vanta - stopp</advancedAspect>
       <ourAspect>Kor 80 - vanta - kor 80</ourAspect>
-	  <ourAspect>Kor 40 - vanta</ourAspect>
-	  <ourAspect>Stopp</ourAspect>
-    </aspectMapping>
+	    <ourAspect>Kor 40 - vanta</ourAspect>
+	    <ourAspect>Stopp</ourAspect>
+      </aspectMapping>
   </aspectMappings>
   <!-- End of Aspect Mapping -->
 </appearancetable>
